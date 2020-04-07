@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PiggyVest | Dashboard</title>
+</head>
+<style>
+    *{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+	background-color: #062863;	
+	}
+	img{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+	}
+	
+	.login{
+		background-color: #fff;
+		padding: 2.5rem;
+		margin: 0 auto;
+		padding-top: 40px;
+	}
+	.round{
+		padding-bottom: 3rem;
+		width: 91%;
+		margin-top: 25px;
+	}
+	.rounded{
+	border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+	}
+	.maxwidth{
+		max-width: 24rem;
+		float: center;
+	}
+	.text{
+		font-size: 1.5rem;
+		color: #083e9e;
+		font-weight: 700;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.text-sm{
+		font-size: .875rem;
+		color: #4a5568;
+		text-align: center;
+		font-family: Karla,sans-serif;
+		margin-bottom: 30px;
+}
+.colors{
+	background-color: background-color: #edf2f7; 
+	color: #1a202c;
+}
+.text-xs{
+	font-size: .75rem;
+	color: #4a5568;
+	margin-bottom: .25rem;
+	line-height: 2;
+	font-weight: 700;
+	font-family:u8, sans-serif;
+}
+.pl{
+	padding: 1rem;
+	background-color: #edf2f7;
+	border-radius: .25rem;
+	margin-bottom: 25px;
+}
+input{
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	width: 90%;
+	border: 0px none;
+
+}
+.pm{
+	padding: 1rem;
+	background-color: #edf2f7;
+	border-radius: .25rem;
+	margin: auto;
+	width: 98.6%;
+}
+.forall{
+	background-color: #fff !important;
+	line-height: 1.5;
+}
+/*style for button*/
+.bt1{
+	background-color: rgb(8, 62, 158);
+	color: #fff;
+	width: 100%;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-size: .875rem;
+	text-align: center;
+	font-weight: 700;
+	font-family: U8,sans-serif;
+	justify-content: center;
+}
+.bt2{
+	padding-top: 1.2rem;
+	padding-bottom:1rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem; 
+	margin-top: 0;
+
+}
+.bt3{
+	border: none;
+	border-bottom-right-radius: .75rem;
+	border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+}
+.link{
+	color: #fff;
+	white-space: nowrap;
+	font-size: .75rem;
+	padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-family: Karla,sans-serif;
+    justify-content: center;
+}
+.space{
+	text-align: center;
+	align-items: center;
+}
+.alignn{
+	text-align: center;
+}
+</style>
+
+<body>
+    <div class="section">
+        <img src="piggyVest.svg">
+        <div class="login round rounded maxwidth">
+            <h1 class="text">Create a Secure Account</h1>
+            <p class="text-sm">Welcome to the future of Savings & Investments</p>
+            <form>
+                <label class="text-xs">Full Name</label> <br>
+                <input class="colors pl" type="text" name="name" placeholder="Full Name">
+                <label class="text-xs">Email Address</label> <br>
+                <input class="colors pl" type="text" name="email" placeholder="Email Address">
+                <label class="text-xs">Phone Number</label> <br>
+                <input class="colors pl" type="tell" name="phone" placeholder="Phone Number">
+                <label class="text-xs">Password</label> <br>
+                <input class="colors pl" type="password" name="password" placeholder="Password">
+                <label class="text-xs">Referrer Phone or Promo Code (Optional)</label> <br>
+               
+                <input class="colors pl" type="text" name="promo" placeholder="Referrer Phone Or Code">
+                <label class="text-xs">How Did You Hear About Us? (Optional)</label> <br>
+                
+  <select class="colors pm" id="socialmedia" name="socialmedia" >
+  	<option class="forall" value="Click to select">Click to select</option>
+    <option class="forall"value="Facebook">Facebook</option>
+    <option class="forall" value="Twitter">Twitter</option>
+    <option class="forall" value="Instagram">Instagram</option>
+    <option class="forall" value="Friend/family/Coworker referal">Friend/family/Coworker referal</option>
+        <option class="forall" value="Google search">Google search</option>
+            <option class="forall"  value="Google playstore">Google playstore</option>
+                <option class="forall" value="Online blogs">Online blogs</option>
+                    <option class="forall" value="Local newspaper">Local newspaper</option>
+                        <option class="forall" value="At an event">At an event</option><
+  </select><br> <br> <br>
+
+<button class="bt1 bt2 bt3" type="submit">Create Account</button>
+  </form>
+</div>
+</div><br><br>
+<div class="alignn">
+<a class="link space">Already have an account? Log In</a>
+</div>
+            </form>
+</body>
+
+</html>
